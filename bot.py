@@ -12,9 +12,9 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Cal
 # -------------------------
 # CONFIGURATION
 # -------------------------
-BOT_TOKEN = os.getenv("8799832660:AAGCPrexiWjTgyVKsKp2gtxfB1ixBdJhV98")            # Telegram bot token
-FLW_PUBLIC_KEY = os.getenv("FLWPUBK_TEST-2613dca118646dc478bfae9083cb5361-X")  # Flutterwave public key
-FLW_SECRET_KEY = os.getenv("FLWSECK_TEST-c51551c92f2a6f2143b387ebaef12995-X")  # Flutterwave secret key
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+FLW_PUBLIC_KEY = os.getenv("FLW_PUBLIC_KEY")
+FLW_SECRET_KEY = os.getenv("FLW_SECRET_KEY") # Flutterwave secret key
 
 # Store premium users {chat_id: expiry_datetime}
 premium_users = {}
