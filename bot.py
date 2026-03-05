@@ -120,7 +120,7 @@ def create_flutterwave_link(user_id):
         "tx_ref": tx_ref,
         "amount": 550,
         "currency": "NGN",
-        "redirect_url": "https://silotelegrambot.onrender.com/flutterwave-webhook",  # CHANGE THIS
+        "redirect_url": "https://silotelegrambotclean.onrender.com/flutterwave-webhook",  # CHANGE THIS
         "payment_options": "card,bank,ussd,qr",
         "customer": {"email": f"user{user_id}@example.com"},
         "customizations": {"title": "Silo Premium", "description": "Daily premium video download"}
